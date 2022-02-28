@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/mboris/projectsVerilog/Syntacore/Muxes
+vMux_masters
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1646000380
+!i10b 1
+!s100 5M614JH2Sb_nzhK@defO<3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJNM;ThQ`T<LV4`2SKl<0z1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1645704190
+8./Mux_masters.sv
+F./Mux_masters.sv
+!i122 16
+L0 2 103
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1646000379.000000
+!s107 ./Mux_masters.sv|
+!s90 -reportprogress|300|./Mux_masters.sv|
+!i113 1
+Z6 tCvgOpt 0
+n@mux_masters
+vMux_masters_tb
+R1
+R2
+!i10b 1
+!s100 5WlJnLTPhU:iz7M9NZbK`3
+R3
+IMdWcC?AUa76;9LRG<@;og0
+R4
+S1
+R0
+w1646000364
+8./Mux_masters_tb.sv
+F./Mux_masters_tb.sv
+!i122 17
+L0 2 92
+R5
+r1
+!s85 0
+31
+!s108 1646000380.000000
+!s107 ./Mux_masters_tb.sv|
+!s90 -reportprogress|300|./Mux_masters_tb.sv|
+!i113 1
+R6
+n@mux_masters_tb
+vMux_slaves
+R1
+Z7 !s110 1646000802
+!i10b 1
+!s100 Q`O<[2_E][e9W=X>@NHKn3
+R3
+IXdkLKM8e;bP2NQU<3j:fM1
+R4
+S1
+R0
+w1645961280
+8./Mux_slaves.sv
+F./Mux_slaves.sv
+!i122 26
+L0 1 87
+R5
+r1
+!s85 0
+31
+Z8 !s108 1646000802.000000
+!s107 ./Mux_slaves.sv|
+!s90 -reportprogress|300|./Mux_slaves.sv|
+!i113 1
+R6
+n@mux_slaves
+vMux_slaves_tb
+R1
+R7
+!i10b 1
+!s100 @Km8VDI>OfAhlI;VF@`992
+R3
+IU>NgAGSGYjO0_OzeK5XK_3
+R4
+S1
+R0
+w1646000484
+8./Mux_slaves_tb.sv
+F./Mux_slaves_tb.sv
+!i122 27
+L0 2 90
+R5
+r1
+!s85 0
+31
+R8
+!s107 ./Mux_slaves_tb.sv|
+!s90 -reportprogress|300|./Mux_slaves_tb.sv|
+!i113 1
+R6
+n@mux_slaves_tb

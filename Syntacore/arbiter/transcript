@@ -1,0 +1,679 @@
+ls
+# arbiter.sv
+# arbiter_tb.v
+# arbiter_tb.v.bak
+# MS_arbiter.tcl
+# transcript
+# vish_stacktrace.vstf
+# vsim.wlf
+# work
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:40:04 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:40:04 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:40:04 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:40:04 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 100ps -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:40:04 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:41:13 on Feb 21,2022, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:41:14 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:41:14 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:41:14 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:41:14 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 1ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:41:14 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:41:28 on Feb 21,2022, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:41:29 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:41:29 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:41:29 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:41:29 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 1ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:41:29 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:41:55 on Feb 21,2022, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:41:56 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:41:56 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:41:56 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:41:56 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 10ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:41:56 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 0
+#     Source: ./arbiter_tb.v:25
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 1
+#     Source: ./arbiter_tb.v:25
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 2
+#     Source: ./arbiter_tb.v:25
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+######## Additional Loop Analysis Started ##########
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 170 ns  Iteration: 0  Instance: /arbiter_tb
+####################################################
+# Simulation time has advanced while attempting to find the loop.
+# This may mean that the simulation iteration limit is set too low.
+####################################################
+##############  Autofindloop Step ##################
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(ack)#11
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#25
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#26
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#34
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/#INITIAL#12
+#     Source: ./arbiter_tb.v:12
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(req)#11
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#33
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#35
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(rst)#11
+#     Source: ./arbiter_tb.v:11
+###################################################
+exit -sim
+# End time: 00:42:21 on Feb 21,2022, Elapsed time: 0:00:25
+# Errors: 1, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:42:22 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:42:22 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:42:22 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:42:22 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 10ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:42:22 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 0
+#     Source: ./arbiter_tb.v:25
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 1
+#     Source: ./arbiter_tb.v:25
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 2
+#     Source: ./arbiter_tb.v:25
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+######## Additional Loop Analysis Started ##########
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 170 ns  Iteration: 0  Instance: /arbiter_tb
+####################################################
+# Simulation time has advanced while attempting to find the loop.
+# This may mean that the simulation iteration limit is set too low.
+####################################################
+##############  Autofindloop Step ##################
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(ack)#11
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#25
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#26
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#34
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/#INITIAL#12
+#     Source: ./arbiter_tb.v:12
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(req)#11
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#33
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#35
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(rst)#11
+#     Source: ./arbiter_tb.v:11
+###################################################
+exit -sim
+# End time: 00:42:45 on Feb 21,2022, Elapsed time: 0:00:23
+# Errors: 1, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:42:46 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:42:46 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:42:46 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:42:46 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 100ps -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:42:46 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:43:04 on Feb 21,2022, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:43:04 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:43:04 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:43:05 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:43:05 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 1ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:43:05 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:43:21 on Feb 21,2022, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+exit -sim
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:43:23 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:43:23 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:43:23 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:43:23 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 1ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:43:23 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+source MS_arbiter.tcl
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+exit -sim
+# End time: 00:43:35 on Feb 21,2022, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:43:36 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:43:36 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:43:36 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:43:36 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 1ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:43:36 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:43:46 on Feb 21,2022, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:43:51 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:43:51 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:43:51 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:43:51 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 1ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:43:51 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:44:10 on Feb 21,2022, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:44:11 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:44:11 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:44:11 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:44:11 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 10ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:44:11 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 0
+#     Source: ./arbiter_tb.v:25
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 1
+#     Source: ./arbiter_tb.v:25
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 2
+#     Source: ./arbiter_tb.v:25
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+######## Additional Loop Analysis Started ##########
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 170 ns  Iteration: 0  Instance: /arbiter_tb
+####################################################
+# Simulation time has advanced while attempting to find the loop.
+# This may mean that the simulation iteration limit is set too low.
+####################################################
+##############  Autofindloop Step ##################
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(ack)#11
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#25
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#26
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#34
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/#INITIAL#12
+#     Source: ./arbiter_tb.v:12
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(req)#11
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#33
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#35
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(rst)#11
+#     Source: ./arbiter_tb.v:11
+###################################################
+exit -sim
+# End time: 00:44:28 on Feb 21,2022, Elapsed time: 0:00:17
+# Errors: 1, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:44:29 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:44:29 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:44:29 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:44:29 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t 100ps -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:44:29 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:44:54 on Feb 21,2022, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:44:55 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:44:56 on Feb 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:44:56 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:44:56 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:44:56 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:45:38 on Feb 21,2022, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:45:40 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:45:40 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:45:40 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:45:40 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:45:40 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 0
+#     Source: ./arbiter_tb.v:25
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 1
+#     Source: ./arbiter_tb.v:25
+#   Wakeup process: /arbiter_tb/#ALWAYS#25 @ sub-iteration 2
+#     Source: ./arbiter_tb.v:25
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 0 ns.
+######## Additional Loop Analysis Started ##########
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 17 ns  Iteration: 0  Instance: /arbiter_tb
+####################################################
+# Simulation time has advanced while attempting to find the loop.
+# This may mean that the simulation iteration limit is set too low.
+####################################################
+##############  Autofindloop Step ##################
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(ack)#11
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#25
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#26
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#34
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/#INITIAL#12
+#     Source: ./arbiter_tb.v:12
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(req)#11
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#33
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/dut/#ASSIGN#35
+#     Source: ./arbiter_tb.v:11
+#   Active process: /arbiter_tb/#IMPLICIT-WIRE(rst)#11
+#     Source: ./arbiter_tb.v:11
+###################################################
+exit -sim
+# End time: 00:46:08 on Feb 21,2022, Elapsed time: 0:00:28
+# Errors: 1, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:46:10 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:46:10 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:46:10 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:46:10 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:46:10 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:52:15 on Feb 21,2022, Elapsed time: 0:06:05
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:52:16 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# ** Error: (vlog-13069) ./arbiter.sv(27): near "t": syntax error, unexpected IDENTIFIER.
+# End time: 00:52:16 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/mboris/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+exit -sim
+exit -sim
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:52:32 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:52:32 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:52:32 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:52:32 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:52:33 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+exit -sim
+# End time: 00:53:23 on Feb 21,2022, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:53:24 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# ** Error: ./arbiter.sv(42): (vlog-2110) Illegal reference to net "grant".
+# End time: 00:53:24 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/mboris/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+exit -sim
+source MS_arbiter.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:53:51 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter.sv 
+# -- Compiling module arbiter
+# 
+# Top level modules:
+# 	arbiter
+# End time: 00:53:51 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:53:51 on Feb 21,2022
+# vlog -reportprogress 300 ./arbiter_tb.v 
+# -- Compiling module arbiter_tb
+# 
+# Top level modules:
+# 	arbiter_tb
+# End time: 00:53:51 on Feb 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L work -lib work -t ns -voptargs=""+acc"" arbiter_tb 
+# Start time: 00:53:51 on Feb 21,2022
+# Loading work.arbiter_tb
+# Loading sv_std.std
+# Loading work.arbiter
+# ** Note: $stop    : ./arbiter_tb.v(22)
+#    Time: 133 ns  Iteration: 0  Instance: /arbiter_tb
+# Break in Module arbiter_tb at ./arbiter_tb.v line 22
+# End time: 02:59:16 on Feb 21,2022, Elapsed time: 2:05:25
+# Errors: 0, Warnings: 0
