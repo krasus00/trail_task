@@ -1,4 +1,4 @@
-# trail_task by Boris Matveev
+# trial_task by Boris Matveev
 Cross-bar for 2 masters and 2 slaves
 
 Для каждого модуля разработан тестбенч и tcl файл.
